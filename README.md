@@ -57,12 +57,12 @@ docker build -t application .
 
 Tag the docker image
 ```
-docker tag busybox gcr.io/my-project/application
+docker tag application gcr.io/my-project/application:<v>
 ```
 
 Push the image to GCR
 ```
-docker push gcr.io/my-project/application
+docker push gcr.io/my-project/application:<v>
 ```
 
 In the YAML file 
