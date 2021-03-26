@@ -25,9 +25,10 @@ metadata:
   name: application
   namespace: app
 spec:
+  type: LoadBalancer
   selector:
     app: application
   ports:
     - protocol: TCP
       port: 3000
-      targetPort: 3000
+      targetPort:3000
