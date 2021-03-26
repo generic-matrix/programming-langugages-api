@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: application
+      app: application
     spec:
       containers:
       - name: application
