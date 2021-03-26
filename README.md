@@ -63,7 +63,7 @@ docker tag application gcr.io/<project_id>/application:<v>
 Push the image to GCR
 ```
 gcloud auth configure-docker
-docker push gcr.io/my-project/application:<v>
+docker push gcr.io/<my-project>/application:<v>
 ```
 
 In the YAML file 
