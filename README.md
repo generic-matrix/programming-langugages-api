@@ -71,4 +71,8 @@ In the YAML file
 ```
 kubectl apply -f deploy.yaml
 ```
-A demo REST API with Node.js Express.js and MySQL for most popular programming languages
+Expose the nodeport at the same port 3000
+# Debug 
+```
+docker exec -it <container name> /bin/bash -n app
+```
