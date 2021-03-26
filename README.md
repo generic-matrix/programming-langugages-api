@@ -57,11 +57,12 @@ docker build -t application .
 
 Tag the docker image
 ```
-docker tag application gcr.io/my-project/application:<v>
+docker tag application gcr.io/<project_id>/application:<v>
 ```
 
 Push the image to GCR
 ```
+gcloud auth configure-docker
 docker push gcr.io/my-project/application:<v>
 ```
 
