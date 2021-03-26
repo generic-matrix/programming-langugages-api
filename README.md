@@ -74,5 +74,5 @@ kubectl apply -f deploy.yaml
 Expose the nodeport at the same port 3000
 # Debug 
 ```
-kubectl  exec -it -n app  <pod_id> -- /bin/bash
+kubectl exec --stdin --tty -n app <pod_id> "/bin/sh"
 ```
