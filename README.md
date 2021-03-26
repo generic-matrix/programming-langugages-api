@@ -64,7 +64,7 @@ Push the image to GCR
 ```
 gcloud auth print-access-token | docker login -u oauth2accesstoken --password-stdin https://gcr.io
 gcloud auth configure-docker
-docker push gcr.io/<my-project>/application:<v>
+docker push gcr.io/<project_id>/application:<v>
 ```
 
 In the YAML file 
