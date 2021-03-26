@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-      app: application
+        app: application
     spec:
       containers:
       - name: application
@@ -31,4 +31,4 @@ spec:
   ports:
     - protocol: TCP
       port: 3000
-      targetPort:3000
+      targetPort: 3000
