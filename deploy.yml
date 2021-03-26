@@ -14,7 +14,7 @@ spec:
         app: application
     spec:
       containers:
-      - name: apa-admin
+      - name: application
         image: asia.gcr.io/hyperlocal-286805/application:1
         ports:
         - containerPort: 3000
@@ -22,7 +22,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: apa-admin
+  name: application
   namespace: app
 spec:
   selector:
