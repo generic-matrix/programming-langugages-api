@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: application
-        image: asia.gcr.io/hyperlocal-286805/application:1
+        image: gcr.io/infra-308809/application:1
         ports:
         - containerPort: 3000
 ---
