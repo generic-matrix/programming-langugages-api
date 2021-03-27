@@ -1,5 +1,5 @@
 # programming-langugages-api
-https://blog.logrocket.com/node-js-express-js-mysql-rest-api-example/
+
 
 Connect to SQL:
 
