@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: application
-        image: gcr.io/infra-308809/application:1
+        image: gcr.io/majorproject-313305/github.com/generic-matrix/programming-langugages-api
         ports:
         - containerPort: 3000
 ---
