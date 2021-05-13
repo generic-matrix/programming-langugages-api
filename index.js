@@ -12,7 +12,7 @@ app.use(
 );
 
 app.get('/', (req, res) => {
-  res.json({'message': 'ok changed default'});
+  res.json({'message': 'ok changed now '});
 })
 
 app.use('/programming-languages', programmingLanguagesRouter);
