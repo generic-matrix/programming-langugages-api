@@ -17,16 +17,3 @@ spec:
         image: gcr.io/infra-308809/application:1
         ports:
         - containerPort: 3000
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: application
-spec:
-  type: LoadBalancer
-  selector:
-    app: application
-  ports:
-    - protocol: TCP
-      port: 3000
-      targetPort: 3000
