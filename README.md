@@ -46,7 +46,6 @@ VALUES
 Connection to GKE by gcloud and then :
 
 ```
-kubectl create namespace app
 kubectl get namespace 
 ```
 
