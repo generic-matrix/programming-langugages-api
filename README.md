@@ -76,6 +76,6 @@ Expose the nodeport at the same port 3000
 kubectl exec --stdin --tty -n app <pod_id> "/bin/sh"
 ```
 ```
-kubectl autoscale deployment my-app --max 6 --min 4 --cpu-percent 50
+kubectl autoscale deployment application --max 2 --min 1 --cpu-percent 50
 ```
   
