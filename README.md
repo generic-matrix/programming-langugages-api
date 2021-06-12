@@ -75,12 +75,7 @@ Expose the nodeport at the same port 3000
 ```
 kubectl exec --stdin --tty -n app <pod_id> "/bin/sh"
 ```
-
-https://cloud.google.com/sql/docs/mysql/connect-admin-proxy#create-service-account
-
-
-./cloud_sql_proxy -credential_file=/Users/majorproject/Desktop/cloud_sql_proxy_docs/majorproject-316006-42ef54ffd4e9.json -instances=prod-cloudsql-99f3480d
-
-./cloud_sql_proxy -instances=majorproject-316006:us-east1:prod-cloudsql-99f3480d=tcp:3306 \
-                  -credential_file=/Users/majorproject/Desktop/cloud_sql_proxy_docs/majorproject-316006-42ef54ffd4e9.json 
+```
+kubectl autoscale deployment my-app --max 6 --min 4 --cpu-percent 50
+```
   
